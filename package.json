@@ -1,13 +1,13 @@
 {
   "name": "bitespeed",
   "version": "1.0.0",
-  "main": "index.js",
-   "scripts": {
-  "dev": "nodemon src/app.ts",
-  "build": "tsc",
-  "start": "node dist/app.js",
-  "postinstall": "npx prisma generate"
- },
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "postinstall": "npx prisma generate"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
