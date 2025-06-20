@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "dist/app.js",
   "scripts": {
-    "dev": "nodemon src/app.ts",
-    "build": "tsc",
-    "start": "node dist/app.js",
-    "postinstall": "npx prisma generate"
-  },
+  "dev": "nodemon src/app.ts",
+  "build": "tsc",
+  "start": "node dist/app.js",
+  "postinstall": "npx prisma generate && npx prisma db push"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
