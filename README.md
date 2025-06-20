@@ -16,6 +16,7 @@ The goal is to build a service that can receive an email or phone number and ret
 
 ### `POST /identify`
 ### 'http://localhost:3000/identify'
+### `POST https://bitespeed-identify-app.onrender.com/identify` `:) {render api call url}`
 
 #### Request Body:
 ```json
