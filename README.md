@@ -2,7 +2,7 @@
 
 This is my submission for the BiteSpeed backend assignment. It implements an identity reconciliation API that consolidates contact information based on shared email addresses or phone numbers.
 
-I am not an expert in ReactJS or TypeScript — I built this project with the help of an AI tool (ChatGPT), and through that process, I learned a lot about backend development and data handling using Prisma, Express, and TypeScript.
+I am not an expert in ReactJS or TypeScript — I built this project with the help AI, and through that process, I learned a lot about backend development and data handling using Prisma, Express, and TypeScript.
 
 ---
 
